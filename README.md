@@ -24,7 +24,7 @@ Credit to [Dortania's Opencore Install Guide](https://dortania.github.io/OpenCor
 
 ---
 
-## For 4k output
+## 4k output
 
 If you want to display 4K screen resolutions, you must set the DVMT-prealloc value to at least 64 MB. Unfortunately, there is no way to set the DVMT-prealloc value in the BIOS. Here, I modify the value through Grub Shell (OC/Tools/modGRUBShell.efi).
 
