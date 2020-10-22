@@ -33,6 +33,6 @@ If you want to display 4K screen resolutions, you must set the DVMT-prealloc val
     # modify the value to 0x2 (64MB)
     grub> setup_var 0x350 0x2
 
-__Warning__: The value 0x350 only works on some models (e.g., *Dell Precision T3620* and *DELL-OptiPlex-7040*). You ***should not*** modify such value unless you confirm that this value applies to your machine. To get the value of your machine, you can extract your BIOS file through [Dell PFS Bios Extractor](https://github.com/platomav/BIOSUtilities), and parse it through [UEFITool](https://github.com/LongSoft/UEFITool) and [Universal IFR Extractor](https://github.com/LongSoft/Universal-IFR-Extractor)
+__Warning__: The value 0x350 only works on some models (e.g., *Dell Precision T3620*, *Dell PowerEdge T30* and *DELL-OptiPlex-7040*). You ***should not*** modify such value unless you confirm that this value applies to your machine. To get the value of your machine, you can extract your BIOS file through [Dell PFS Bios Extractor](https://github.com/platomav/BIOSUtilities), and parse it through [UEFITool](https://github.com/LongSoft/UEFITool) and [Universal IFR Extractor](https://github.com/LongSoft/Universal-IFR-Extractor)
 
 For ***Dell Precision Tower 3430***, the value is 0x8DC, and you should type `setup_var 0x8DC 0x2`
